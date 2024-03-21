@@ -5,23 +5,160 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638460069140348669
-    m_Hash: 3305573645
+      ticks: 638466090942683266
+    m_Hash: 221279036
   m_LockFileStatus:
     m_FilePath: C:/Users/ASUS/Documents/GitHub/GADE7321-Part1/GADE7321-Part1/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638460069140414141
-    m_Hash: 4248215076
+      ticks: 638466091255548310
+    m_Hash: 770229181
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/ASUS/Documents/GitHub/GADE7321-Part1/GADE7321-Part1/Packages
-m_EditorVersion: 2022.3.11f1 (d00248457e15)
+m_EditorVersion: 2022.3.21f1 (bf09ca542b87)
 m_ResolvedPackages:
+- packageId: com.unity.adaptiveperformance@5.0.2
+  testable: 0
+  isDirectDependency: 1
+  version: 5.0.2
+  source: 1
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\GADE7321-Part1\GADE7321-Part1\Library\PackageCache\com.unity.adaptiveperformance@5.0.2
+  assetPath: Packages/com.unity.adaptiveperformance
+  name: com.unity.adaptiveperformance
+  displayName: Adaptive Performance
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: 'The Adaptive Performance package provides an API to get feedback
+    about the thermal and power state of mobile devices, enabling applications to
+    make performance-relevant adaptions at runtime.
+
+
+    For instruction on how
+    to use samples, please read the documentation.
+
+
+    By installing this package,
+    you agree to the terms and conditions of the Unity End User License Agreement
+    found under "View licenses" above.'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.2.0-preview.1
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.0-preview.4
+    - 1.1.0-preview.5
+    - 1.1.0-preview.7
+    - 1.1.0
+    - 1.1.6
+    - 1.1.9
+    - 1.1.10
+    - 1.2.0
+    - 1.2.2
+    - 1.2.3
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0-preview.4
+    - 2.0.0-preview.7
+    - 2.0.0-preview.8
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.11
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.1
+    - 2.2.1
+    - 2.2.3
+    - 2.2.4
+    - 3.0.0-pre.2
+    - 3.0.0
+    - 3.0.2
+    - 3.0.3
+    - 4.0.0-pre.1
+    - 4.0.0
+    - 4.0.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0-pre.3
+    - 5.0.0-pre.4
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    compatible:
+    - 4.0.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0-pre.3
+    - 5.0.0-pre.4
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    recommended: 4.0.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  resolvedDependencies:
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  keywords:
+  - mobile
+  - adaptive
+  - performance
+  - utility
+  - utilities
+  - core
+  - samsung
+  - ap
+  - provider
+  - subsystem
+  - indexer
+  - scaler
+  - vrr
+  - boost
+  - profiles
+  - cluster
+  - clusterinfo
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638290079540000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.adaptiveperformance@5.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.adaptiveperformance.git
+    revision: d0a859ff72cb2feff9652eda68ebb265cc9f63a1
+    path: 
+  unityLifecycle:
+    version: 4.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.collab-proxy@2.3.1
   testable: 0
   isDirectDependency: 1
@@ -116,10 +253,9 @@ m_ResolvedPackages:
     - 2.2.0
     - 2.3.1
     compatible:
-    - 2.1.0
     - 2.2.0
     - 2.3.1
-    recommended: 2.1.0
+    recommended: 2.2.0
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -157,7 +293,7 @@ m_ResolvedPackages:
     revision: 613362ccb4468f55ee42e0a35809fb9a61f3f8f1
     path: 
   unityLifecycle:
-    version: 2.1.0
+    version: 2.2.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -209,7 +345,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.21
+    version: 2.0.22
   - name: com.unity.test-framework
     version: 1.1.33
   - name: com.unity.ext.nunit
@@ -219,7 +355,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.25
+    version: 3.0.27
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -227,7 +363,7 @@ m_ResolvedPackages:
   - name: com.unity.performance.profile-analyzer
     version: 1.2.2
   - name: com.unity.testtools.codecoverage
-    version: 1.2.4
+    version: 1.2.5
   - name: com.unity.settings-manager
     version: 2.0.1
   keywords: []
@@ -448,12 +584,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.timeline@1.7.5
+- packageId: com.unity.timeline@1.7.6
   testable: 0
   isDirectDependency: 1
-  version: 1.7.5
+  version: 1.7.6
   source: 1
-  resolvedPath: C:\Users\ASUS\Documents\GitHub\GADE7321-Part1\GADE7321-Part1\Library\PackageCache\com.unity.timeline@1.7.5
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\GADE7321-Part1\GADE7321-Part1\Library\PackageCache\com.unity.timeline@1.7.6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -555,7 +691,6 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     compatible:
-    - 1.7.5
     - 1.7.6
     - 1.8.0
     - 1.8.1
@@ -600,16 +735,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638229649600000000
+  datePublishedTicks: 638326112840000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: fdb1ca9a2c2a131e0ff9cb257b2eae3b53337b3a
+    revision: 02f49ada64a9f88044207cf42ba407dc634ef8e6
     path: 
   unityLifecycle:
-    version: 1.7.5
+    version: 1.7.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -779,6 +914,142 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.9.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.xr.management@4.4.1
+  testable: 0
+  isDirectDependency: 1
+  version: 4.4.1
+  source: 1
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\GADE7321-Part1\GADE7321-Part1\Library\PackageCache\com.unity.xr.management@4.4.1
+  assetPath: Packages/com.unity.xr.management
+  name: com.unity.xr.management
+  displayName: XR Plugin Management
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Package that provides simple management of XR plug-ins. Manages and
+    offers help with loading, initialization, settings, and build support for XR
+    plug-ins.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.8
+    - 0.1.0-preview.12
+    - 1.0.0-preview.2
+    - 2.0.0-preview.3
+    - 2.0.0-preview.6
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.13
+    - 2.0.0-preview.21
+    - 2.0.0-preview.22
+    - 2.0.0-preview.24
+    - 2.0.0-preview.25
+    - 2.0.0-preview.26
+    - 3.0.1
+    - 3.0.2-preview.1
+    - 3.0.2-preview.2
+    - 3.0.3
+    - 3.0.4-preview.1
+    - 3.0.4-preview.3
+    - 3.0.4
+    - 3.0.5-preview.1
+    - 3.0.5
+    - 3.0.6-preview.2
+    - 3.0.6
+    - 3.1.0-preview.2
+    - 3.2.4
+    - 3.2.6
+    - 3.2.7
+    - 3.2.9
+    - 3.2.10
+    - 3.2.11-preview.1
+    - 3.2.12
+    - 3.2.13
+    - 3.2.15
+    - 3.2.16
+    - 3.2.17
+    - 4.0.0-exp.2
+    - 4.0.0-pre.2
+    - 4.0.0-pre.3
+    - 4.0.1
+    - 4.0.3
+    - 4.0.5
+    - 4.0.6
+    - 4.0.7
+    - 4.1.0-pre.1
+    - 4.1.0-pre.2
+    - 4.1.0
+    - 4.2.0
+    - 4.2.1
+    - 4.3.1
+    - 4.3.3
+    - 4.4.0
+    - 4.4.1
+    compatible:
+    - 4.4.0
+    - 4.4.1
+    recommended: 4.4.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.7
+  resolvedDependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  keywords:
+  - xr
+  - sdk
+  - ar
+  - vr
+  - management
+  - build
+  - plugin
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638410379800000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.management@4.4/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
+    revision: 0eaf10a186d9e12b264d5e10d1c7daa345428fb4
+    path: 
+  unityLifecycle:
+    version: 4.4.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -2686,12 +2957,90 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.visualstudio@2.0.21
+- packageId: com.unity.xr.legacyinputhelpers@2.1.10
   testable: 0
   isDirectDependency: 0
-  version: 2.0.21
+  version: 2.1.10
   source: 1
-  resolvedPath: C:\Users\ASUS\Documents\GitHub\GADE7321-Part1\GADE7321-Part1\Library\PackageCache\com.unity.ide.visualstudio@2.0.21
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\GADE7321-Part1\GADE7321-Part1\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
+  assetPath: Packages/com.unity.xr.legacyinputhelpers
+  name: com.unity.xr.legacyinputhelpers
+  displayName: XR Legacy Input Helpers
+  author:
+    name: 
+    email: 
+    url: 
+  category: XR
+  type: 
+  description: This package includes the tracked pose driver for the legacy input
+    system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
+    Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
+    track input devices, the XR Bindings Seeding Tool adds a menu item under the
+    'Assets' menu which populates the Input Asset with Unity's crossplatform Input
+    Bindings
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 2.1.10
+    compatible:
+    - 2.1.10
+    recommended: 2.1.10
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  keywords:
+  - TPD
+  - Tracked Pose Driver
+  - XR
+  - Input
+  - Helpers
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
+    revision: 465ee12451634ea2b2986d54f6ae8be37316772a
+    path: 
+  unityLifecycle:
+    version: 2.1.10
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.ide.visualstudio@2.0.22
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.22
+  source: 1
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\GADE7321-Part1\GADE7321-Part1\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -2733,7 +3082,6 @@ m_ResolvedPackages:
     - 2.0.21
     - 2.0.22
     compatible:
-    - 2.0.21
     - 2.0.22
     recommended: 2.0.22
     deprecated: []
@@ -2760,28 +3108,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638300315250000000
+  datePublishedTicks: 638326061910000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: eb2b500b99f6429d3d9dcb8acbcbd366dfbb42be
+    revision: 700b44077345e97d37d464ff25507638983aed64
     path: 
   unityLifecycle:
-    version: 2.0.21
+    version: 2.0.22
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.25
+- packageId: com.unity.ide.rider@3.0.27
   testable: 0
   isDirectDependency: 0
-  version: 3.0.25
+  version: 3.0.27
   source: 1
-  resolvedPath: C:\Users\ASUS\Documents\GitHub\GADE7321-Part1\GADE7321-Part1\Library\PackageCache\com.unity.ide.rider@3.0.25
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\GADE7321-Part1\GADE7321-Part1\Library\PackageCache\com.unity.ide.rider@3.0.27
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -2841,8 +3189,6 @@ m_ResolvedPackages:
     - 3.0.27
     - 3.0.28
     compatible:
-    - 3.0.25
-    - 3.0.26
     - 3.0.27
     - 3.0.28
     recommended: 3.0.28
@@ -2864,16 +3210,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638300315270000000
+  datePublishedTicks: 638373878680000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: e103b4771a884e656407e1b7219e5e3c20222552
+    revision: 1d471c19a7f21834ae5b8d0358fd6f9b242c1ee8
     path: 
   unityLifecycle:
-    version: 3.0.25
+    version: 3.0.27
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3219,12 +3565,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.testtools.codecoverage@1.2.4
+- packageId: com.unity.testtools.codecoverage@1.2.5
   testable: 0
   isDirectDependency: 0
-  version: 1.2.4
+  version: 1.2.5
   source: 1
-  resolvedPath: C:\Users\ASUS\Documents\GitHub\GADE7321-Part1\GADE7321-Part1\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\GADE7321-Part1\GADE7321-Part1\Library\PackageCache\com.unity.testtools.codecoverage@1.2.5
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -3233,7 +3579,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
@@ -3274,7 +3620,6 @@ m_ResolvedPackages:
     - 1.2.4
     - 1.2.5
     compatible:
-    - 1.2.4
     - 1.2.5
     recommended: 1.2.5
     deprecated: []
@@ -3309,16 +3654,79 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638212235100000000
+  datePublishedTicks: 638386640140000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
-    revision: a7dd0751db55cd55e3b336723fb51433c1de7244
+    revision: afeb9febf6597fcc31c99ca116d6a82b1e97b9f5
     path: 
   unityLifecycle:
-    version: 1.2.4
+    version: 1.2.5
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.profiling.core@1.0.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.2
+  source: 1
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\GADE7321-Part1\GADE7321-Part1\Library\PackageCache\com.unity.profiling.core@1.0.2
+  assetPath: Packages/com.unity.profiling.core
+  name: com.unity.profiling.core
+  displayName: Unity Profiling Core API
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: The Unity Profiling Core package provides an API for code instrumentation
+    markup, and for profiling statistic collection.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.1
+    - 0.2.0-preview.1
+    - 0.2.1-preview.1
+    - 1.0.0-pre.1
+    - 1.0.0
+    - 1.0.2
+    compatible:
+    - 1.0.2
+    recommended: 1.0.2
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - profiler
+  - profiling
+  - api
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637828752310000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/profiler.git
+    revision: 2189ba14439d76a4083f59fae87163b4bdfd49c2
+    path: 
+  unityLifecycle:
+    version: 1.0.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
