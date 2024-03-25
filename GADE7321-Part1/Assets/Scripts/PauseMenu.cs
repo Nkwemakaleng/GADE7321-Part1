@@ -42,6 +42,8 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
+        Cursor.visible = false; // Hide cursor when game is resumed
+        Cursor.lockState = CursorLockMode.Locked; // Lock cursor
     }
 
     void Pause()
@@ -49,6 +51,8 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
+        Cursor.visible = true; // unHide cursor when game is paused
+        Cursor.lockState = CursorLockMode.None; // unLock cursor
     }
 
     public void SetVolume(float volume)
