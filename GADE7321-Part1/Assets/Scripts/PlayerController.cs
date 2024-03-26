@@ -11,7 +11,8 @@ public class PlayerController : MonoBehaviour
    public LayerMask groundMask; // Added ground mask
    private bool isGrounded; // Added grounded bool
    public float jumpForce = 5f; // Added jumpForce
-   public bool flagHeld = false; 
+   public bool flagHeld = false;
+   public Transform enemy;
 
     void Start()
     {
@@ -48,8 +49,9 @@ public class PlayerController : MonoBehaviour
                 controller.Move(Vector3.up * (jumpForce * Time.deltaTime));
             }
             
+            
+            isGrounded = Physics.CheckSphere(groundCheck.position, 0.1f, groundMask);
             //Powerup 
-
         }
         
     }
